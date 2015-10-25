@@ -1,22 +1,22 @@
 {
-  "name": "quidprofollow",
+  "name": "profollow",
   "version": "1.2.1",
-  "description": "Makes a Twitter bot's (or human user's) follower and followee lists match by following and unfollowing to make it happen.",
+  "description": "Makes a Twitter account followback everyone that follows it. A fork of quidprofollow.",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jimkang/quidprofollow.git"
+    "url": "git@github.com:coleww/profollow.git"
   },
   "keywords": [],
   "author": "Jim Kang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimkang/quidprofollow/issues"
+    "url": "https://github.com/coleww/profollow/issues"
   },
-  "homepage": "https://github.com/jimkang/quidprofollow",
+  "homepage": "https://github.com/coleww/profollow",
   "devDependencies": {
     "tape": "^3.0.3"
   },
