@@ -1,19 +1,24 @@
-quidprofollow
+profollow
 ==================
 
-Makes a Twitter bot's (or human user's) follower and followee lists match by following and unfollowing to make it happen.
+Makes a Twitter account follow back everyone that is following it. A fork of [jimkang/quidprofollow](https://github.com/jimkang/quidprofollow) but with less "quid pro" and more just "pro". 
+
+Often times I will have my bots follow each other because then they will reply or interact in some way. Usually this works out fine with quidprofollow, but if 2 quidprofollow bots are trying to follow one another it can lead to disaster if they are not activated in the correct order. profollow erases all these troubles by making yr bot gleefully follow back everyone. It also might be useful if the goal of yr bot is explicitly to follow lots of spambots, or if yr bot depends on certain users who will never follow you back being in it's timeline. These examples are quite vague, but I assure you that it was totally worth the 3 seconds it took to make this module.
+
+- Q: wait, couldn't u just use the unfollowFilter attribute on quidprofollow and call `done([])`
+- A: yes, why yes i just realized that now, thank you.
 
 Installation
 ------------
 
-    npm install quidprofollow
+    npm install profollow
 
 Usage
 -----
 
-    var quidprofollow = require('quidprofollow');
+    var profollow = require('profollow');
     
-    quidprofollow(
+    profollow(
       {
         twitterAPIKeys: {
           consumer_key: 'asdfkljqwerjasdfalpsdfjas',
