@@ -84,7 +84,7 @@ function quidprofollow(opts, done) {
         {
           twitPost: safeTwitPost,
           usersToFollow: usersToFollow,
-          usersToUnfollow: usersToUnfollow,
+          usersToUnfollow: [],
           usersFilteredOut: followFilterResults.jerks
         },
         done
